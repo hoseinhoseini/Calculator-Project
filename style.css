@@ -55,3 +55,13 @@ body {
     box-shadow: 6px 6px 16px 0 rgba(209, 205, 199, 0.5),
         -6px -6px 16px 0 rgba(255, 255, 255, 0.5);
 }
+
+.action-btn {
+    color: gray;
+    font-weight: bold;
+}
+
+.calc-action-btn {
+    color: orange;
+    font-weight: bold;
+}
