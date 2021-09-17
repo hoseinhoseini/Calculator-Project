@@ -34,3 +34,16 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
 }
+
+.container .buttons .button,
+.container .buttons .num-button {
+    cursor: grab;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    box-shadow: 6px 6px 16px 0 rgba(209, 205, 199, 0.5),
+        -6px -6px 16px 0 rgba(255, 255, 255, 0.5);
+}
